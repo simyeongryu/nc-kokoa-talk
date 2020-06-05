@@ -50,4 +50,19 @@ div는 블록을 위한 컨테이너. span은 텍스트를 위한 컨테이너.
 
 ## 글로벌 class
 
-반복되는 요소를 위한 전역 class 
+반복되는 요소를 위한 전역 class
+
+## css import 
+```css
+@import "./reset.css";
+```
+
+내용을 끌고 온다. html 등에서는 link를 하나만 하면 된다.
+
+## google fonts
+
+구글 폰트
+
+필요한 폰트를 고른 다음 필요한 굵기만 고르고
+
+CSS import할지 HTML link할지 고르고 사용한다.
