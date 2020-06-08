@@ -4,8 +4,9 @@
 @import "./header.css";
 @import "./nav-bar.css";
 @import "./friend.css";
+@import "./friends.css";
 /* font */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
 /* box-sizing: width와 height의 기준을 boder box를 포함한 크기로 설정한다 
  * width: 500px; 을 지정하면 border를 포함한 크기가 500px로 설정된다.
