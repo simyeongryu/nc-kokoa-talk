@@ -1,0 +1,34 @@
+.find .find__header-list {
+  display: flex;
+  /* space-between은 아이템이 양 끝점에 정렬되고 나머지는 사이에 고르게 */
+  /* space-around는 item들이 균등한 여백을 포함하여 정렬 */
+  justify-content: space-around;
+}
+
+.find .header-btn__icon {
+  font-size: 12px;
+}
+
+.find .header-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find .header-btn__title {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.find .find__recommended {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.find .find__title {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-bottom: 15px;
+}
