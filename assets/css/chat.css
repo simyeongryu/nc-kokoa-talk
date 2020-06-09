@@ -1,0 +1,57 @@
+.chat {
+  background-image: url("../img/chat-bg.png");
+  /* vh, vw 
+   * viewport의 100%. viewport는 screen
+   * 화면 크기에 따라 크기가 자동으로 변한다.
+   */
+  min-height: 100vh;
+}
+
+.chat-body {
+  margin: 0;
+  padding: 0;
+}
+
+.chat-body .header,
+.chat-body .status-bar {
+  padding: 0px 20px;
+}
+
+.chat__write {
+  position: fixed;
+  bottom: 50px;
+  /* position: fixed 혹은 absolute일 때
+  * margin: auto, left: 0, right: 0 하면 가운데 정렬
+  */
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcfcfc;
+  padding: 10px 20px;
+  border-radius: 40px;
+  /* 콤마로 구분하면 아래 그림자, 위 그림자 */
+  /* 수평, 수직, 블러, 스프레드, 색 */
+  box-shadow: 0px 30px 60px -12px rgba(50, 50, 93, 0.2),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3);
+}
+
+.chat__write i {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.chat__write-column:nth-child(2) {
+  width: 80%;
+}
+
+.chat__write-column input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}

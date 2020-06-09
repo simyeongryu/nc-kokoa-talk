@@ -1,4 +1,4 @@
-/* reset.css 내용을 끌고 온다. */
+/* 하위 css import */
 @import "./reset.css";
 @import "./status-bar.css";
 @import "./header.css";
@@ -8,6 +8,7 @@
 @import "./find.css";
 @import "./more.css";
 @import "./settings.css";
+@import "./chat.css";
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 

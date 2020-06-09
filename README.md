@@ -66,3 +66,9 @@ div는 블록을 위한 컨테이너. span은 텍스트를 위한 컨테이너.
 필요한 폰트를 고른 다음 필요한 굵기만 고르고
 
 CSS import할지 HTML link할지 고르고 사용한다.
+
+## 샘플 사이트
+
+dribble - 디자인
+
+subtle patterns - 패턴 샘플
