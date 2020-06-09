@@ -79,12 +79,21 @@
 
 .message {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 50%;
+  margin-bottom: 10px;
 }
 
 .message .message__content {
   width: 50%;
+  font-weight: 300;
+}
+
+.message .message__bubble {
+  background-color: white;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  padding: 10px 20px;
+  border-radius: 40px;
 }
 
 .incoming-message {
@@ -96,15 +105,24 @@
   align-self: flex-end;
 }
 
-.incoming-message img {
-  width: 50px;
-  border-radius: 15px;
-  margin-right: 10px;
+.incoming-message .message__author {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
 }
 
-.message .message__bubble {
-  background-color: white;
-  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
-  padding: 10px 20px;
-  border-radius: 40px;
+.incoming-message img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.incoming-message .message__bubble {
+  border-bottom-left-radius: 0px;
+}
+
+.sent-message .message__bubble {
+  border-bottom-right-radius: 0px;
 }
