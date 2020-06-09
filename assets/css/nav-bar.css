@@ -36,3 +36,19 @@
   align-items: center;
   justify-content: center;
 }
+
+@keyframes show-nav-bar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* animation에 딜레이를 넣어서 순차적으로 등장하게 할 수 있다. */
+.nav {
+  transform: translateY(80px);
+  animation: show-nav-bar 0.5s ease-out forwards;
+  animation-delay: 0.3s;
+}

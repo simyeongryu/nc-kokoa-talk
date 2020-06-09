@@ -93,6 +93,7 @@
 .chat__icon {
   font-size: 18px;
   transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 /* 일반 인접형제선택자 */
@@ -196,11 +197,21 @@
   font-size: 14px;
 }
 
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
 .incoming-message img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 15px;
+  animation: spin 1s linear infinite;
 }
 
 .incoming-message .message__bubble {
