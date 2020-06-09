@@ -74,3 +74,18 @@ dribble - 디자인
 subtle patterns - 패턴 샘플
 
 ui gradient - gradient sample
+
+## positionL fixed 혹은 absolute일 때 요소 가운데 정렬 
+
+margin: auto;
+left: 0;
+right: 0;
+
+## 일반 인접형제선택자 
+
+```css
+/* 같은 부모를 갖는 상태에서, E ~ F. E 뒤에나오는 F에 속성값 부여  */
+.chat__write:focus ~ .chat__icon {
+  display: none;
+}
+```
