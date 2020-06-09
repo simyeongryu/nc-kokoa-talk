@@ -81,18 +81,39 @@
   display: flex;
   align-items: flex-start;
   width: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .message .message__content {
+  position: relative;
   width: 50%;
-  font-weight: 300;
+}
+
+.message .message__timestamp {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.incoming-message .message__timestamp {
+  position: absolute;
+  right: -40px;
+  bottom: 5px;
+}
+
+.sent-message .message__timestamp {
+  position: absolute;
+  left: -40px;
+  bottom: 5px;
 }
 
 .message .message__bubble {
-  background-color: white;
-  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  width: 100%;
+  word-wrap: normal;
   padding: 10px 20px;
+  color: white;
+  font-weight: 400;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
   border-radius: 40px;
 }
 
@@ -107,7 +128,7 @@
 
 .incoming-message .message__author {
   display: block;
-  margin-bottom: 10px;
+  margin: 10px 0px;
   font-weight: 600;
   font-size: 14px;
 }
@@ -121,8 +142,11 @@
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
+  /* gradient는 background-image */
+  background-image: linear-gradient(to right, #fe8c00, #f83600);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
+  background-image: linear-gradient(to left, #00c6ff, #0072ff);
 }
