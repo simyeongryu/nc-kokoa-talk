@@ -86,7 +86,8 @@ right: 0;
 ### 인접 형제선택자 
 
 ```css
-/* 같은 부모를 갖는 상태에서, E + F. E 바로 뒤에 나오는 F에만 속성값 부여  */
+/* 같은 부모를 갖는 상태에서, E + F 
+ * E 바로 뒤에 나오는 F에만 속성값 부여  */
 .chat__write:focus + .chat__icon {
   display: none;
 }
@@ -95,8 +96,34 @@ right: 0;
 ### 일반 형제선택자  
 
 ```css
-/* 같은 부모를 갖는 상태에서, E ~ F. E 뒤에나오는 F에 속성값 부여  */
+/* 같은 부모를 갖는 상태에서, E ~ F
+ * E 뒤에 나오는 F들에 속성값 부여  */
 .chat__write:focus ~ .chat__icon {
   display: none;
+}
+```
+
+## box sizing
+
+<img src="https://t1.daumcdn.net/cfile/tistory/99D6524D5BB1675724" /> 
+
+### content-box
+
+```css
+/* width와 height의 기준을 content로 설정한다 
+ * width: 500px; 을 지정하면 content만 500px가 되고 padding, border 등은 따로 계산해야 한다.
+*/
+* {
+  box-sizing: content-box;
+}
+```
+
+### border-box
+```css
+/* box-sizing: width와 height의 기준을 boder box를 포함한 크기로 설정한다 
+ * width: 500px; 을 지정하면 border를 포함한 크기가 500px로 설정된다.
+*/
+* {
+  box-sizing: border-box;
 }
 ```
