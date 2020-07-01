@@ -127,3 +127,22 @@ right: 0;
   box-sizing: border-box;
 }
 ```
+
+# 챌린지
+
+## 1. 
+
+### 문제
+
+https://i.imgur.com/WZM57Z2.png
+
+- The has to have a height of 1500px;
+- The top red bar should stay at the top of the page even if I scroll.
+- The white title should have a 50px space from the borders of the blue box.
+- The yellow box should have a grey border.
+- There should be one .css file and one .html file.
+- The green box should be in the intersection between the red, blue and yellow.
+
+### 코드
+내 코드 : https://codesandbox.io/s/blueprint-cp1wj
+정답 코드 :
