@@ -144,5 +144,15 @@ https://i.imgur.com/WZM57Z2.png
 - The green box should be in the intersection between the red, blue and yellow.
 
 ### 코드
-내 코드 : https://codesandbox.io/s/blueprint-4wg10
-정답 코드 :
+
+- 내 코드 : https://codesandbox.io/s/blueprint-4wg10
+
+## 3. 
+
+### 문제
+
+https://i.imgur.com/lDf56lt.png
+
+### 코드
+
+- 내코드 : https://codesandbox.io/s/blueprint-8t8p9
