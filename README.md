@@ -156,3 +156,14 @@ https://i.imgur.com/lDf56lt.png
 ### 코드
 
 - 내코드 : https://codesandbox.io/s/blueprint-8t8p9
+- 정답코드: https://codesandbox.io/s/1on3n2430l
+
+## 4. 
+
+### 문제
+
+https://nomad-coders-assets.s3.amazonaws.com/media/public/django-summernote/2019-07-26/d1478780-7606-4986-b058-3ffb9fc31953.gif
+
+### 코드
+
+- 내코드 : https://codesandbox.io/s/blueprint-el7rb
