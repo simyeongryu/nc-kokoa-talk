@@ -167,3 +167,5 @@ https://nomad-coders-assets.s3.amazonaws.com/media/public/django-summernote/2019
 ### 코드
 
 - 내코드 : https://codesandbox.io/s/blueprint-el7rb
+- 정답코드 : https://codesandbox.io/s/vy3k3kyxr3
+
