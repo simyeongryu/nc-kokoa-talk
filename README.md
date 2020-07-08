@@ -183,3 +183,14 @@ https://i.ibb.co/qRyBr3M/00.png
 ### 코드
 
 - 내코드 : https://codesandbox.io/s/blueprint-0pl3b
+- 정답코드 : https://codesandbox.io/s/znpprpw58l
+
+## 7.
+
+### 문제
+
+https://i.ibb.co/85Lx7jT/1.png
+
+### 코드
+
+- 내코드 :
