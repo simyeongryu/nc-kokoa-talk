@@ -194,3 +194,14 @@ https://i.ibb.co/85Lx7jT/1.png
 ### 코드
 
 - 내코드 : https://codesandbox.io/s/blueprint-upbri
+- 정답 코드 : https://codesandbox.io/s/7wkzmj8n9q
+
+## 8. 
+
+### 문제
+
+https://nomad-coders-assets.s3.amazonaws.com/media/public/django-summernote/2019-07-27/faa40d7c-7fc0-4aa5-9bf2-26626b666ffc.png
+
+### 코드
+
+- 내코드 : 
