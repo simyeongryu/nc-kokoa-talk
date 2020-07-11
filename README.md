@@ -216,3 +216,14 @@ https://nomad-coders-assets.s3.amazonaws.com/media/public/django-summernote/2019
 ### 코드
 
 - 내코드 : https://codesandbox.io/s/blueprint-mqv1w
+- 정답 : https://codesandbox.io/s/xpz04x8x6w
+
+## 10. 
+
+### 문제
+
+https://nomad-coders-assets.s3.amazonaws.com/media/public/django-summernote/2019-07-27/189255b8-7241-4d97-b48a-ee8d4ef9c527.png
+
+### 코드
+
+- 내 코드 : https://codesandbox.io/s/blueprint-b6ug6
