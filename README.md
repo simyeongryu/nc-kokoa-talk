@@ -227,3 +227,19 @@ https://nomad-coders-assets.s3.amazonaws.com/media/public/django-summernote/2019
 ### 코드
 
 - 내 코드 : https://codesandbox.io/s/blueprint-b6ug6
+- 정답 코드 : https://codesandbox.io/s/48p48w2wv9
+
+## 11.
+
+### 문제 
+
+https://lh3.googleusercontent.com/xWu12ctIdOUput7vMWUaC1KUMqD4z8zoCSzUuP-PrfvPlAT4VySoqxjOhStKnWOOra8as8d6lUj_E7jVgpsv8mH-q-plfx9AkIvMD_htqvhvIqZ8Yg-MdZgYrUG44x0DEn62-_re
+
+https://lh5.googleusercontent.com/ercLrzGF0ot_bfbO4zlPr073qUaUkfwnFYGt9gieZwuglGjwGtylDDBmcV0Bx720CpZzxO5XB7-qHTPGbq-m_plkt69MuTiNZ5Z2RZOxC1kymRUyy-mJPtzjy1k9WrH9D-QTOfqh
+
+### 코드
+
+두 번째 박스 마우스 hover 및 height 조정이 좀 어렵다
+
+- 내코드 :https://codesandbox.io/s/blueprint-pewm1
+
