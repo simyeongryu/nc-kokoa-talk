@@ -242,4 +242,4 @@ https://lh5.googleusercontent.com/ercLrzGF0ot_bfbO4zlPr073qUaUkfwnFYGt9gieZwuglG
 두 번째 박스 마우스 hover 및 height 조정이 좀 어렵다
 
 - 내코드 :https://codesandbox.io/s/blueprint-pewm1
-
+- 정답코드 :https://codesandbox.io/s/o72v95jpl6
